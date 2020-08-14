@@ -1,0 +1,2 @@
+#! /bin/sh
+/usr/local/sbin/pure-authd -s /var/run/pure-authd.sock -r /home/webadmin/s.turbobit.ru/html/application/controllers/tools/runftpauth
