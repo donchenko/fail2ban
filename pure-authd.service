@@ -1,0 +1,10 @@
+[Unit]
+Description=Pure-FTPd Custom Authentication Pure-Authd
+
+[Service]
+Type=idle
+User=root
+ExecStart=/usr/bin/pure-authd-start
+
+[Install]
+WantedBy=multi-user.target
